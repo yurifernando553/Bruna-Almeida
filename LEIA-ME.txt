@@ -1,0 +1,37 @@
+🚀 COMO FAZER UPLOAD NO NETLIFY
+
+1. COPIE SUA FOTO:
+   - Pegue o arquivo "perfil.jpg" da pasta "assets"
+   - Cole aqui na pasta "deploy"
+
+2. FAÇA LOGIN NO NETLIFY:
+   - Acesse: https://app.netlify.com/
+   - Crie uma conta (grátis)
+
+3. FAÇA O DEPLOY:
+   - Arraste TODA a pasta "deploy" para o Netlify
+   - OU arraste apenas os arquivos de dentro da pasta "deploy":
+     * index.html
+     * perfil.jpg
+
+4. PRONTO!
+   - Sua página estará online 24/7
+   - Você receberá uma URL tipo: https://seu-site.netlify.app
+
+⚠️ IMPORTANTE:
+- O index.html DEVE estar na raiz (não dentro de subpastas)
+- Arraste a pasta "deploy" inteira, ou os arquivos de dentro dela
+- NÃO arraste a pasta do projeto inteiro
+
+✅ ESTRUTURA CORRETA:
+deploy/
+  ├── index.html      ← Arquivo principal
+  └── perfil.jpg      ← Sua foto (copie da pasta assets)
+
+❌ NÃO FAÇA ASSIM:
+Site da bruna/
+  └── deploy/
+      └── index.html  ← Errado! Está muito dentro
+
+✅ FAÇA ASSIM:
+Arraste a pasta "deploy" ou os arquivos de dentro dela diretamente.
